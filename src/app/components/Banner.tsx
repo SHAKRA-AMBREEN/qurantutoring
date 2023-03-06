@@ -359,7 +359,7 @@ export default function Banner() {
                 ml="60px"
               />
             </Box>
-            <Box flexBasis="50%" m="30px" ml="50px">
+            <Box flexBasis="50%" m="30px" ml={{lg:"50px",base:"5px"}}>
               <Text fontSize=" xl ">
                 <Heading>ISLAM</Heading>
                 Online Learning <br></br>
@@ -375,7 +375,7 @@ export default function Banner() {
                 <br></br>
                 <CheckCircleIcon color="green" /> Free Registration <br></br>
               </Text>
-              <Button bgColor="green" mt="10px" w="400px" h="30px">
+              <Button bgColor="green" mt="10px" w={{lg:"400px",base:"80px"}} h="30px">
                 {" "}
                 Learn Now{" "}
               </Button>
