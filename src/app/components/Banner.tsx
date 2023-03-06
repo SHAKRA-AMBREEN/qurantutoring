@@ -375,7 +375,7 @@ export default function Banner() {
                 <br></br>
                 <CheckCircleIcon color="green" /> Free Registration <br></br>
               </Text>
-              <Button bgColor="green" mt="10px" w={{lg:"400px",base:"200px"}} h="30px">
+              <Button bgColor="green" mt="10px" w={{lg:"400px",base:"100px"}} h="30px">
                 {" "}
                 Learn Now{" "}
               </Button>
