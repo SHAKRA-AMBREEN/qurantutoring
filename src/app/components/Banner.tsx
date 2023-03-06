@@ -354,13 +354,13 @@ export default function Banner() {
               <Image
                 src="/herobg/image 6.jpg"
                 w={{lg:"700px", base: "300px"}}
-                h={{lg:"400px", base: "420px"}}
+                h={{lg:"400px", base: "300px"}}
                 pl={{lg:"120px", base:"5px"}}
                 ml={{lg:"60px", base:"5px"}}
               />
             </Box>
             <Box flexBasis={{lg:"50%",base:"30%"}} m={{lg:"30px",base:"10px"}} ml={{lg:"50px",base:"10px"}}>
-              <Text fontSize={{lg:" xl ", base:"8px"}}>
+              <Text fontSize={{lg:" xl ", base:"10px"}}>
                 <Heading>ISLAM</Heading>
                 Online Learning <br></br>
                 <CheckCircleIcon color="green" /> Learn Noorani Qaida <br></br>
@@ -418,7 +418,7 @@ export default function Banner() {
         <Box flexBasis="50%" px="40px" mt="20px" display={{lg:"flex",base:"grid"}}>
           <Image src="/herobg/image 7.jpg" w="700px" h="400px" />
         </Box>
-        <Box flexBasis="50%" m={{lg:"30px",base:"5px"}}>
+        <Box flexBasis="50%" m={{lg:"30px",base:"5px"}}  display={{lg:"flex",base:"grid"}}>
           <Text fontSize={{lg:" md ", base:"sm"}}>
             Our team of talented Teachers are providing Education services
             <Heading color="green">About Us</Heading>
