@@ -487,7 +487,7 @@ export default function Banner() {
       </Center>
 
       <Center>
-        <Flex mt="30px" gap="20px" display={{lg:flex, base:"grid"}}>
+        <Flex mt="30px" gap="20px" display={{lg:"flex", base:"grid"}}>
           <Box
             textAlign="center"
             p="30px"
