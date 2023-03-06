@@ -479,7 +479,7 @@ export default function Banner() {
           OUR PRICES
         </Heading>
         <Text> Choose your plan </Text>
-        <Text mt="10px" textAlign="center" px="130px">
+        <Text mt="10px" textAlign="center" px={{lg:"130px",base:"20px"}}>
           {" "}
           You can also customize your plan in any special case (Memorizing or to
           take class more than 30 minutes or in language classes etc.)
@@ -487,7 +487,7 @@ export default function Banner() {
       </Center>
 
       <Center>
-        <Flex mt="30px" gap="20px">
+        <Flex mt="30px" gap="20px" display={{lg:flex, base:"grid"}}>
           <Box
             textAlign="center"
             p="30px"
