@@ -63,7 +63,7 @@ export default function Banner() {
                   This is the book about which there is no doubt, A guaidance
                   for those conscious of ALLAH.
                 </Text>
-                <Button size="lg" colorScheme="green" mt="10px">
+                <Button size={{lg:"lg", base:"lg"}} colorScheme="green" mt="10px">
                   Read More
                 </Button>
                 
@@ -106,7 +106,7 @@ export default function Banner() {
               {" "}
               COURSE SYLLABUS{" "}
             </Heading>
-            <Text mt="10px" textAlign="center" px="130px">
+            <Text mt="10px" textAlign="center" px={{lg:"130px", base: "20px"}}>
               {" "}
               Services of Islam and teaching the real face of Islam with our
               services
