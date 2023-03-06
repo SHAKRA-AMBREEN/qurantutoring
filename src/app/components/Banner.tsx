@@ -350,17 +350,17 @@ export default function Banner() {
           </Center>
 
           <Flex>
-            <Box flexBasis="50%" px="40px" mt="20px">
+            <Box flexBasis="50%" px={{lg:"40px",base:"5px"}} mt="20px">
               <Image
                 src="/herobg/image 6.jpg"
-                w="700px"
-                h="400px"
-                pl="120px"
+                w={{lg:"700px", base: "400px"}}
+                h={{lg:"400px", base: "200px"}}
+                pl={{lg:"120px", base:"20px"}}
                 ml="60px"
               />
             </Box>
-            <Box flexBasis="50%" m="30px" ml={{lg:"50px",base:"5px"}}>
-              <Text fontSize=" xl ">
+            <Box flexBasis="50%" m={{lg:"30px",base:"10px"}} ml={{lg:"50px",base:"5px"}}>
+              <Text fontSize={{lg:" xl ", base:"md"}}>
                 <Heading>ISLAM</Heading>
                 Online Learning <br></br>
                 <CheckCircleIcon color="green" /> Learn Noorani Qaida <br></br>
