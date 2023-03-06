@@ -360,7 +360,7 @@ export default function Banner() {
               />
             </Box>
             <Box flexBasis={{lg:"50%",base:"30%"}} m={{lg:"30px",base:"10px"}} ml={{lg:"50px",base:"10px"}}>
-              <Text fontSize={{lg:" xl ", base:"10px"}}>
+              <Text fontSize={{lg:" xl ", base:"8px"}}>
                 <Heading>ISLAM</Heading>
                 Online Learning <br></br>
                 <CheckCircleIcon color="green" /> Learn Noorani Qaida <br></br>
