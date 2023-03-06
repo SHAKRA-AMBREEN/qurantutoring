@@ -85,7 +85,7 @@ export default function Banner() {
                   src="https://www.fajralquran.com/imgs/quran.png"
                   alt="banner-logo"
                   width={{ lg: "800", base: "750" }}
-                  height={{ lg: "310", base: "350" }}
+                  height={{ lg: "310", base: "330" }}
                 />
                 </RevealWrapper>
               </Box>
