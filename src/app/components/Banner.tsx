@@ -399,7 +399,7 @@ export default function Banner() {
               {" "}
               Are you interested in Trial Session?{" "}
             </Heading>
-            <Text mt="10px" textAlign="center" px="130px" color="white">
+            <Text mt="10px" textAlign="center" px={{lg:"130px", base:"20px"}} color="white">
               {" "}
               You can try our Free Trial Session, No Obligation Lessons to
               Evaluate our Quran Reading Service & Teachers, After the free
