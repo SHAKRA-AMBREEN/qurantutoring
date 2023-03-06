@@ -338,7 +338,7 @@ export default function Banner() {
               {" "}
               What We Offer{" "}
             </Heading>
-            <Text mt="10px" textAlign="center" px="130px">
+            <Text mt="10px" textAlign="center" px={{lg:"130px", base:"20px"}}>
               {" "}
               Learning Quran Recitation is beneficial because no one can
               pronounce Arabic words correctly or with proper rules of Tajweed
