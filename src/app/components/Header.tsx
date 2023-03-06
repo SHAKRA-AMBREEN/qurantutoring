@@ -84,7 +84,7 @@ export default function Header() {
                   aria-label="Options"
                   icon={<HamburgerIcon />}
                   variant="outline"
-                  // color='white'
+                  color='green'
                 />
                 <MenuList>
                   <Link href="./">
