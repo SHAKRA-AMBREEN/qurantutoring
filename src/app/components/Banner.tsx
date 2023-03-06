@@ -354,13 +354,13 @@ export default function Banner() {
               <Image
                 src="/herobg/image 6.jpg"
                 w={{lg:"700px", base: "300px"}}
-                h={{lg:"400px", base: "200px"}}
-                pl={{lg:"120px", base:"20px"}}
+                h={{lg:"400px", base: "400px"}}
+                pl={{lg:"120px", base:"5px"}}
                 ml={{lg:"60px", base:"10px"}}
               />
             </Box>
             <Box flexBasis={{lg:"50%",base:"30%"}} m={{lg:"30px",base:"10px"}} ml={{lg:"50px",base:"10px"}}>
-              <Text fontSize={{lg:" xl ", base:"10px"}}>
+              <Text fontSize={{lg:" xl ", base:"8px"}}>
                 <Heading>ISLAM</Heading>
                 Online Learning <br></br>
                 <CheckCircleIcon color="green" /> Learn Noorani Qaida <br></br>
