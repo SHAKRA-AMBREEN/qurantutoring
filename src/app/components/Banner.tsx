@@ -432,7 +432,7 @@ export default function Banner() {
 
           <Flex mt="5px">
             <Box mr="5px">
-              <Heading color="green" size="2xl">
+              <Heading color="green" size={{lg:"2xl",base:"xl"}}>
                 {" "}
                 10{" "}
               </Heading>
@@ -440,8 +440,8 @@ export default function Banner() {
             <Box>
               <Text pt="15px"> Work Station </Text>
             </Box>
-            <Box ml="150px">
-              <Heading color="green" size="2xl">
+            <Box ml={{lg:"150px",base:"50px"}}>
+              <Heading color="green" size={{lg:"2xl",base:"xl"}}>
                 {" "}
                 1000+{" "}
               </Heading>
@@ -452,7 +452,7 @@ export default function Banner() {
           </Flex>
           <Flex mt="5px">
             <Box mr="5px">
-              <Heading color="green" size="2xl">
+              <Heading color="green" size={{lg:"2xl",base:"xl"}}>
                 {" "}
                 4{" "}
               </Heading>
@@ -460,8 +460,8 @@ export default function Banner() {
             <Box>
               <Text pt="15px"> Years of experience </Text>
             </Box>
-            <Box ml="150px">
-              <Heading color="green" size="2xl">
+            <Box ml={{lg:"150px",base:"50px"}}>
+              <Heading color="green" size={{lg:"2xl",base:"xl"}}>
                 {" "}
                 500{" "}
               </Heading>
