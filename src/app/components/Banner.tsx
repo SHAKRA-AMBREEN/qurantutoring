@@ -354,9 +354,9 @@ export default function Banner() {
               <Image
                 src="/herobg/image 6.jpg"
                 w={{lg:"700px", base: "300px"}}
-                h={{lg:"400px", base: "400px"}}
+                h={{lg:"400px", base: "500px"}}
                 pl={{lg:"120px", base:"5px"}}
-                ml={{lg:"60px", base:"10px"}}
+                ml={{lg:"60px", base:"5px"}}
               />
             </Box>
             <Box flexBasis={{lg:"50%",base:"30%"}} m={{lg:"30px",base:"10px"}} ml={{lg:"50px",base:"10px"}}>
@@ -395,7 +395,7 @@ export default function Banner() {
         <Container maxW={1400}>
           <Center flexDir="column" pt="50px">
             <Text color="white"> Free Registration </Text>
-            <Heading size="xl" color="white">
+            <Heading size={{lg:"xl", base:"md" }} color="white">
               {" "}
               Are you interested in Trial Session?{" "}
             </Heading>
