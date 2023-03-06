@@ -354,7 +354,7 @@ export default function Banner() {
               <Image
                 src="/herobg/image 6.jpg"
                 w={{lg:"700px", base: "300px"}}
-                h={{lg:"400px", base: "500px"}}
+                h={{lg:"400px", base: "420px"}}
                 pl={{lg:"120px", base:"5px"}}
                 ml={{lg:"60px", base:"5px"}}
               />
