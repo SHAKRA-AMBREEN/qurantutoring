@@ -22,7 +22,7 @@ export default function Banner() {
         // bg='green.300'
         bgImage="https://www.teahub.io/photos/full/173-1730516_kaaba-picture-islamic-art-white-hd.jpg"
         bgRepeat="no-repeat"
-        bgSize={{lg:"1400px", base:"800px"}}
+        bgSize={{lg:"1400px", base:"900px"}}
       >
 
 
