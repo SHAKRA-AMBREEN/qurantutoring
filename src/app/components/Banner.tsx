@@ -84,8 +84,8 @@ export default function Banner() {
                   //   src="/herobg/image 2.webp"
                   src="https://www.fajralquran.com/imgs/quran.png"
                   alt="banner-logo"
-                  width={{ lg: "800", base: "700" }}
-                  height={{ lg: "310", base: "250" }}
+                  width={{ lg: "800", base: "750" }}
+                  height={{ lg: "310", base: "350" }}
                 />
                 </RevealWrapper>
               </Box>
