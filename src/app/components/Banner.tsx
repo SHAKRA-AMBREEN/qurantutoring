@@ -119,7 +119,7 @@ export default function Banner() {
             <Grid mt="30px" gap="50px" >
               <Box
                 textAlign="center"
-                p="30px"
+                p={{lg:"30px", base:"10px"}}
                 boxShadow="dark-lg"
                 borderRadius="20px "
                 borderStyle="dotted"
@@ -127,12 +127,12 @@ export default function Banner() {
                 height={{ lg: "220px", base: " " }}
                 bgColor="lightgrey"
               >
-                <Flex display={{lg:"flex",base:"grid"}}>
+                <Flex display="flex" >
                   <Image
                     src="/logo/noraniQaida.png"
                     alt="noraniqaida"
-                    h={{lg:"150px",base:" 80px "}}
-                    width={{lg:"200px",base: "80px"}}
+                    h={{lg:"150px",base:"  "}}
+                    width={{lg:"200px",base: "  "}}
                   />
                   <Text pt="5px">
                     {" "}
@@ -157,7 +157,7 @@ export default function Banner() {
                 height="220px"
                 bgColor="lightgray"
               >
-                <Flex display={{ lg: "flex", base: "grid" }}>
+                <Flex display="flex">
                   <Image
                     src="/logo/quran_reading.png"
                     alt="quran reading"
