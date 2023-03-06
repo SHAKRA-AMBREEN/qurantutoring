@@ -36,14 +36,14 @@ export default function Banner() {
           reset={true}
         >
               <Box mt="20px">
-                <Heading> o بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</Heading>
+                <Heading fontSize={{lg:" lg", base: " md "}}> o بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</Heading>
               </Box>{" "}
               </RevealWrapper>
             </Center>
             
         
             <Flex
-              pt={{ lg: "100px", base: "3opx" }}
+              pt={{ lg: "100px", base: "20px" }}
               pb="100px"
               px={{ lg: "40px", base: "5px" }}
               display={{ lg: "flex", base: "grid" }}
@@ -58,7 +58,7 @@ export default function Banner() {
           reset={true}
         >
               
-                <Heading size="2xl">Welcome to our Academy</Heading>
+                <Heading size={{lg:"2xl",base:"xl"}}>Welcome to our Academy</Heading>
                 <Text pt="10px" textColor="grey">
                   This is the book about which there is no doubt, A guaidance
                   for those conscious of ALLAH.
