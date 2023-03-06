@@ -98,7 +98,7 @@ export default function Banner() {
       </Box>
 
 
-      <Box pt="30px">
+      <Box pt={{lg:"30px", base:"5px"}}>
         <Container maxW={1400}>
           <Center flexDir="column">
             <Text> Courses </Text>
@@ -116,23 +116,23 @@ export default function Banner() {
           <RevealList interval={40} delay={900} origin="top" reset={true}  className='flex flex-wrap items-center justify-center'>
           <Center>
           
-            <Grid mt="30px" gap="50px">
+            <Grid mt="30px" gap="50px" >
               <Box
                 textAlign="center"
                 p="30px"
                 boxShadow="dark-lg"
                 borderRadius="20px "
                 borderStyle="dotted"
-                width={{ lg: "1000px", base: "" }}
-                height={{ lg: "220px", base: "" }}
+                width={{ lg: "1000px", base: "400px " }}
+                height={{ lg: "220px", base: "700px" }}
                 bgColor="lightgrey"
               >
-                <Flex>
+                <Flex display={{lg:"flex",base:"grid"}}>
                   <Image
                     src="/logo/noraniQaida.png"
                     alt="noraniqaida"
-                    h="150px"
-                    width="200px"
+                    h={{lg:"150px",base:" 80px "}}
+                    width={{lg:"200px",base: "80px"}}
                   />
                   <Text pt="5px">
                     {" "}
