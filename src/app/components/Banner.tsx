@@ -123,8 +123,8 @@ export default function Banner() {
                 boxShadow="dark-lg"
                 borderRadius="20px "
                 borderStyle="dotted"
-                width={{ lg: "1000px", base: "400px " }}
-                height={{ lg: "220px", base: "700px" }}
+                width={{ lg: "1000px", base: " " }}
+                height={{ lg: "220px", base: " " }}
                 bgColor="lightgrey"
               >
                 <Flex display={{lg:"flex",base:"grid"}}>
