@@ -418,8 +418,8 @@ export default function Banner() {
         <Box flexBasis="50%" px="40px" mt="20px">
           <Image src="/herobg/image 7.jpg" w="700px" h="400px" />
         </Box>
-        <Box flexBasis="50%" m="30px">
-          <Text fontSize="  ">
+        <Box flexBasis="50%" m={{lg:"30px",base:"5px"}}>
+          <Text fontSize={{lg:" md ", base:"sm"}}>
             Our team of talented Teachers are providing Education services
             <Heading color="green">About Us</Heading>
             This is very Status online platform for learning about Islam at one
