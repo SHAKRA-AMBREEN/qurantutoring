@@ -98,7 +98,7 @@ export default function Banner() {
       </Box>
 
 
-      <Box pt={{lg:"30px", base:"5px"}}>
+      <Box pt={{lg:"30px", base:"5px"}} >
         <Container maxW={1400}>
           <Center flexDir="column">
             <Text> Courses </Text>
@@ -233,8 +233,8 @@ export default function Banner() {
         >
           <Container maxW={1400}>
             <Flex
-              pt={{ lg: "100px", base: "3opx" }}
-              pb="100px"
+              pt={{ lg: "100px", base: "30px" }}
+              pb={{lg:"100px", base:"50px"}}
               px={{ lg: "40px", base: "5px" }}
               display={{ lg: "flex", base: "grid" }}
             >
@@ -267,7 +267,7 @@ export default function Banner() {
                   //   src="/herobg/image 2.webp"
                   src="logo/learnus.png"
                   alt="banner-logo"
-                  width={{ lg: "800", base: "600" }}
+                  width={{ lg: "800", base: "500" }}
                   height={{ lg: "310", base: "250" }}
                 />
               </Box>
