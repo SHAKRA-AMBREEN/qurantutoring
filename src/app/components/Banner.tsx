@@ -176,8 +176,8 @@ export default function Banner() {
                     <Image
                       src="/logo/quran_reading.png"
                       alt="quran reading"
-                      h={{ lg: "180px", base: " 100px " }}
-                      width={{ lg: "200px", base: " 100px " }}
+                      h={{ lg: "180px", base: " 110px " }}
+                      width={{ lg: "200px", base: " 130px " }}
                       ml={{ lg: "0", base: "100px" }}
                     />
                     <Text pt="5px">
@@ -210,8 +210,8 @@ export default function Banner() {
                     <Image
                       src="/logo/quran memorization.png"
                       alt="quran memorization"
-                      h={{ lg: "180px", base: " 120px " }}
-                      width={{ lg: "200px", base: " 100px " }}
+                      h={{ lg: "180px", base: " 130px " }}
+                      width={{ lg: "200px", base: " 130px " }}
                       ml={{ lg: "0", base: "100px" }}
                     />
                     <Text pt="5px">
