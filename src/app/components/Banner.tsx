@@ -130,7 +130,7 @@ export default function Banner() {
                 <Box
                   textAlign="center"
                   p={{ lg: "30px", base: "40px" }}
-                  ml={{ lg: "0", base: "20px" }}
+                  ml={{ lg: "0", base: "5px" }}
                   boxShadow="dark-lg"
                   borderRadius={{ lg: "20px", base: "10px" }}
                   borderStyle="dotted"
@@ -164,7 +164,7 @@ export default function Banner() {
                 <Box
                   textAlign="center"
                   p={{ lg: "30px", base: "40px" }}
-                  ml={{ lg: "0", base: "20px" }}
+                  ml={{ lg: "0", base: "5px" }}
                   boxShadow="dark-lg"
                   borderRadius={{ lg: "20px", base: "10px" }}
                   borderStyle="dotted"
@@ -176,7 +176,7 @@ export default function Banner() {
                     <Image
                       src="/logo/quran_reading.png"
                       alt="quran reading"
-                      h={{ lg: "180px", base: " 80px " }}
+                      h={{ lg: "180px", base: " 100px " }}
                       width={{ lg: "200px", base: " 100px " }}
                       ml={{ lg: "0", base: "100px" }}
                     />
@@ -198,7 +198,7 @@ export default function Banner() {
                 <Box
                   textAlign="center"
                   p={{ lg: "30px", base: "40px" }}
-                  ml={{ lg: "0", base: "20px" }}
+                  ml={{ lg: "0", base: "5px" }}
                   boxShadow="dark-lg"
                   borderRadius={{ lg: "20px", base: "10px" }}
                   borderStyle="dotted"
@@ -210,7 +210,7 @@ export default function Banner() {
                     <Image
                       src="/logo/quran memorization.png"
                       alt="quran memorization"
-                      h={{ lg: "180px", base: " 80px " }}
+                      h={{ lg: "180px", base: " 100px " }}
                       width={{ lg: "200px", base: " 100px " }}
                       ml={{ lg: "0", base: "100px" }}
                     />
