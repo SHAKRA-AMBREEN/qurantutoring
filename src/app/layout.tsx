@@ -3,6 +3,7 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import WhatsAppIcon from "./components/WhatsAppIcon";
 
 export default function RootLayout({
   children,
@@ -19,6 +20,8 @@ export default function RootLayout({
       <body>
       <ChakraProvider>
           <Header />
+      <WhatsAppIcon />
+
           {children}
           <Footer />
         </ChakraProvider>

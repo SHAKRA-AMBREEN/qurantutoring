@@ -15,7 +15,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <Box bg="black">
+      <Box bg="#0f172a">
         <Container maxW={1300}>
           <SimpleGrid
             textAlign={{ lg: "start", base: "center" }}

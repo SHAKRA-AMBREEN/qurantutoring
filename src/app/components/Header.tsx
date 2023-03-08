@@ -23,7 +23,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <>
-      <Box boxShadow="lg" pt="5px" bg='black' >
+      <Box boxShadow="lg" pt="5px" bg='#0f172a' >
         <Container maxWidth={1400}>
           <SimpleGrid templateColumns="repeat(3, 1fr )">
             <Box>
