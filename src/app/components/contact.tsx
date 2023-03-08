@@ -30,7 +30,7 @@ export const ContactForm = () => {
           <FormLabel>Message</FormLabel>
           <Textarea placeholder="Enter your message" />
         </FormControl>
-        <Button mt={4} colorScheme="green" type="submit">
+        <Button mt={4} bgColor="grey" type="submit">
           Submit
         </Button>
         </Container>
