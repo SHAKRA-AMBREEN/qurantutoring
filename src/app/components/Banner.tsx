@@ -134,7 +134,7 @@ export default function Banner() {
                     alt="noraniqaida"
                     h={{lg:"150px",base:" 100px "}}
                     width={{lg:"200px",base: " 100px "}}
-                    ml={{lg:"", base:"100px"}}
+                    ml={{lg:"0", base:"100px"}}
                   />
                   <Text pt="5px" >
                     {" "}
@@ -580,7 +580,7 @@ export default function Banner() {
         </Flex>
       </Center>
 
-      <Box bgColor="lightsalmon" mt="20px">
+      <Box bgColor="lightgray" mt="20px">
         <Container maxW={1400} py={{lg:"30px",base:"10px"}}>
           <Flex gap={{lg:"100px",base: "20px"}} display={{lg:"flex", base:"grid"}}>
             <Grid flexBasis={"50%"} ml={{lg:"120px", base:"20px"}}>
