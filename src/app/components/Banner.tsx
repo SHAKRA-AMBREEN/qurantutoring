@@ -144,7 +144,7 @@ export default function Banner() {
                       alt="noraniqaida"
                       h={{ lg: "150px", base: " 100px " }}
                       width={{ lg: "200px", base: " 100px " }}
-                      ml={{ lg: "0", base: "100px" }}
+                      ml={{ lg: "0", base: "90px" }}
                     />
                     <Text pt="5px">
                       {" "}
@@ -178,7 +178,7 @@ export default function Banner() {
                       alt="quran reading"
                       h={{ lg: "180px", base: " 110px " }}
                       width={{ lg: "200px", base: " 130px " }}
-                      ml={{ lg: "0", base: "100px" }}
+                      ml={{ lg: "0", base: "80px" }}
                     />
                     <Text pt="5px">
                       {" "}
@@ -212,7 +212,7 @@ export default function Banner() {
                       alt="quran memorization"
                       h={{ lg: "180px", base: " 130px " }}
                       width={{ lg: "200px", base: " 130px " }}
-                      ml={{ lg: "0", base: "100px" }}
+                      ml={{ lg: "0", base: "80px" }}
                     />
                     <Text pt="5px">
                       {" "}
