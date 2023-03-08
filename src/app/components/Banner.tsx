@@ -77,7 +77,7 @@ export default function Banner() {
           origin="right"
           delay={200}
           duration={1200}
-          distance="500px"
+          distance="5px"
           reset={true}
         >
                 <Image
