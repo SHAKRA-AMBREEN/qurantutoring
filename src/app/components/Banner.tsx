@@ -120,7 +120,7 @@ export default function Banner() {
               <Box
                 textAlign="center"
                 p={{lg:"30px", base:"50px"}}
-                ml={{lg:'0', base:"200px"}}
+                ml={{lg:'0', base:"230px"}}
                 boxShadow="dark-lg"
                 borderRadius={{lg:"20px", base:"10px"}}
                 borderStyle="dotted"
@@ -134,7 +134,7 @@ export default function Banner() {
                     alt="noraniqaida"
                     h={{lg:"150px",base:" 100px "}}
                     width={{lg:"200px",base: " 100px "}}
-                    ml={{lg:"", base:"150px"}}
+                    ml={{lg:"", base:"100px"}}
                   />
                   <Text pt="5px" >
                     {" "}
