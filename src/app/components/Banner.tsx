@@ -579,9 +579,9 @@ export default function Banner() {
       </Center>
 
       <Box bgColor="lightsalmon" mt="20px">
-        <Container maxW={1400} py="30px">
-          <Flex gap="100px">
-            <Grid flexBasis={"50%"} ml="120px">
+        <Container maxW={1400} py={{lg:"30px",base:"10px"}}>
+          <Flex gap={{lg:"100px",base: "20px"}} display={{lg:"flex", base:"grid"}}>
+            <Grid flexBasis={"50%"} ml={{lg:"120px", base:"20px"}}>
               <Heading>Are you interested in Trial Session?</Heading>
               <Text>
                 {" "}
