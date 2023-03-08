@@ -134,7 +134,7 @@ export default function Banner() {
                     alt="noraniqaida"
                     h={{lg:"150px",base:" 100px "}}
                     width={{lg:"200px",base: " 100px "}}
-                    ml={{lg:"", base:"100px"}}
+                    ml={{lg:"", base:"150px"}}
                   />
                   <Text pt="5px" >
                     {" "}
