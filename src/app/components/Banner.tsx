@@ -129,8 +129,8 @@ export default function Banner() {
               <Grid mt="30px" gap="50px">
                 <Box
                   textAlign="center"
-                  p={{ lg: "30px", base: "50px" }}
-                  ml={{ lg: "0", base: "50px" }}
+                  p={{ lg: "30px", base: "40px" }}
+                  ml={{ lg: "0", base: "20px" }}
                   boxShadow="dark-lg"
                   borderRadius={{ lg: "20px", base: "10px" }}
                   borderStyle="dotted"
@@ -163,8 +163,8 @@ export default function Banner() {
                 </Box>
                 <Box
                   textAlign="center"
-                  p={{ lg: "30px", base: "50px" }}
-                  ml={{ lg: "0", base: "50px" }}
+                  p={{ lg: "30px", base: "40px" }}
+                  ml={{ lg: "0", base: "20px" }}
                   boxShadow="dark-lg"
                   borderRadius={{ lg: "20px", base: "10px" }}
                   borderStyle="dotted"
@@ -197,8 +197,8 @@ export default function Banner() {
                 </Box>
                 <Box
                   textAlign="center"
-                  p={{ lg: "30px", base: "50px" }}
-                  ml={{ lg: "0", base: "50px" }}
+                  p={{ lg: "30px", base: "40px" }}
+                  ml={{ lg: "0", base: "20px" }}
                   boxShadow="dark-lg"
                   borderRadius={{ lg: "20px", base: "10px" }}
                   borderStyle="dotted"
