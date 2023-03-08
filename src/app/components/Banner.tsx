@@ -130,11 +130,10 @@ export default function Banner() {
                 <Box
                   textAlign="center"
                   p={{ lg: "30px", base: "40px" }}
-                  ml={{ lg: "0", base: "5px" }}
                   boxShadow="dark-lg"
                   borderRadius={{ lg: "20px", base: "10px" }}
                   borderStyle="dotted"
-                  width={{ lg: "1000px", base: " 380px " }}
+                  width={{ lg: "1000px", base: " 350px " }}
                   height={{ lg: "220px", base: " 420px " }}
                   bgColor="lightgrey"
                 >
@@ -157,18 +156,17 @@ export default function Banner() {
                       tajweed.
                     </Text>
                   </Flex>
-                  <Button size="lg" colorScheme="green" mt="10px">
+                  <Button size={{lg:"lg",base:"md"}} colorScheme="green" mt="10px">
                     FIRST STEP TO READ QURAN
                   </Button>
                 </Box>
                 <Box
                   textAlign="center"
                   p={{ lg: "30px", base: "40px" }}
-                  ml={{ lg: "0", base: "5px" }}
                   boxShadow="dark-lg"
                   borderRadius={{ lg: "20px", base: "10px" }}
                   borderStyle="dotted"
-                  width={{ lg: "1000px", base: " 380px " }}
+                  width={{ lg: "1000px", base: " 350px " }}
                   height={{ lg: "220px", base: " 420px " }}
                   bgColor="lightgrey"
                 >
@@ -177,7 +175,7 @@ export default function Banner() {
                       src="/logo/quran_reading.png"
                       alt="quran reading"
                       h={{ lg: "180px", base: " 100px " }}
-                      width={{ lg: "200px", base: " 100px " }}
+                      width={{ lg: "200px", base: " 120px " }}
                       ml={{ lg: "0", base: "100px" }}
                     />
                     <Text pt="5px">
@@ -191,18 +189,17 @@ export default function Banner() {
                       ages.
                     </Text>
                   </Flex>
-                  <Button size="lg" colorScheme="green">
+                  <Button size={{lg:"lg",base:"md"}} colorScheme="green">
                     READ AND UNDERSTAND
                   </Button>
                 </Box>
                 <Box
                   textAlign="center"
                   p={{ lg: "30px", base: "40px" }}
-                  ml={{ lg: "0", base: "5px" }}
                   boxShadow="dark-lg"
                   borderRadius={{ lg: "20px", base: "10px" }}
                   borderStyle="dotted"
-                  width={{ lg: "1000px", base: " 380px " }}
+                  width={{ lg: "1000px", base: " 350px " }}
                   height={{ lg: "220px", base: " 420px " }}
                   bgColor="lightgrey"
                 >
@@ -210,7 +207,7 @@ export default function Banner() {
                     <Image
                       src="/logo/quran memorization.png"
                       alt="quran memorization"
-                      h={{ lg: "180px", base: " 100px " }}
+                      h={{ lg: "180px", base: " 120px " }}
                       width={{ lg: "200px", base: " 100px " }}
                       ml={{ lg: "0", base: "100px" }}
                     />
