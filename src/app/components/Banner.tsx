@@ -119,22 +119,24 @@ export default function Banner() {
             <Grid mt="30px" gap="50px" >
               <Box
                 textAlign="center"
-                p={{lg:"30px", base:"10px"}}
+                p={{lg:"30px", base:"50px"}}
+                ml={{lg:'0', base:"200px"}}
                 boxShadow="dark-lg"
-                borderRadius="20px "
+                borderRadius={{lg:"20px", base:"10px"}}
                 borderStyle="dotted"
-                width={{ lg: "1000px", base: " " }}
-                height={{ lg: "220px", base: " " }}
+                width={{ lg: "1000px", base: " 400px " }}
+                height={{ lg: "220px", base: " 420px " }}
                 bgColor="lightgrey"
               >
-                <Flex display="flex" >
+                <Flex display={{lg:"flex", base:"grid"}} >
                   <Image
                     src="/logo/noraniQaida.png"
                     alt="noraniqaida"
-                    h={{lg:"150px",base:"  "}}
-                    width={{lg:"200px",base: "  "}}
+                    h={{lg:"150px",base:" 100px "}}
+                    width={{lg:"200px",base: " 100px "}}
+                    ml={{lg:"", base:"100px"}}
                   />
-                  <Text pt="5px">
+                  <Text pt="5px" >
                     {" "}
                     <Heading> Noorani Qaida </Heading>
                     Learning Noorani Qaida is essential for those who wants to
@@ -280,7 +282,7 @@ export default function Banner() {
         <Box mt="20px" alignItems="center" textAlign={"center"}>
           <Container maxW={1200} alignItems="center">
             <Flex gap="40px" display={{ lg: "flex", base: "-ms-inline-grid" }}>
-              <Box border={"2px solid green"} w="150px" height="150px">
+              <Box border={"2px solid green"} w={{lg:"150px",base:"150px"}} height="150px">
                 <Image src="/icon/fluent.png" w="100px" h="100" ml="20px" />
                 <Text> Fluent Teachers </Text>
               </Box>
@@ -349,7 +351,7 @@ export default function Banner() {
             </Text>
           </Center>
 
-          <Flex>
+          <Flex display={{lg:"flex", base:"grid"}}>
             <Box flexBasis="50%" px={{lg:"40px",base:"5px"}} mt="20px" >
               <Image
                 src="/herobg/image 6.jpg"
@@ -359,8 +361,8 @@ export default function Banner() {
                 ml={{lg:"60px", base:"5px"}}
               />
             </Box>
-            <Box flexBasis={{lg:"50%",base:"30%"}} m={{lg:"30px",base:"10px"}} ml={{lg:"50px",base:"10px"}}>
-              <Text fontSize={{lg:" xl ", base:"8px"}}>
+            <Box flexBasis={{lg:"50%",base:"30%"}} m={{lg:"30px",base:"10px"}} ml={{lg:"50px",base:"80px"}}>
+              <Text fontSize={{lg:" xl ", base:"md"}}>
                 <Heading>ISLAM</Heading>
                 Online Learning <br></br>
                 <CheckCircleIcon color="green" /> Learn Noorani Qaida <br></br>
@@ -414,11 +416,11 @@ export default function Banner() {
         </Container>
       </Box>
 
-      <Flex>
-        <Box flexBasis="50%" px="40px" mt="20px" display={{lg:"flex",base:"grid"}}>
-          <Image src="/herobg/image 7.jpg" w="700px" h="400px" />
+      <Flex  display={{lg:"flex",base:"grid"}}>
+        <Box flexBasis="50%" px={{lg:"40px",base:"10px"}} mt="20px">
+          <Image src="/herobg/image 7.jpg" w={{lg:"700px", base:"400px"}} h={{lg:"400px", base:"200px"}} />
         </Box>
-        <Box flexBasis="50%" m={{lg:"30px",base:"5px"}}  display={{lg:"flex",base:"grid"}}>
+        <Box flexBasis="50%" m={{lg:"30px",base:"10px"}}  >
           <Text fontSize={{lg:" md ", base:"sm"}}>
             Our team of talented Teachers are providing Education services
             <Heading color="green">About Us</Heading>
