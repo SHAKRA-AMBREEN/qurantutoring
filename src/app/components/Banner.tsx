@@ -97,7 +97,9 @@ export default function Banner() {
         </Container>
       </Box>
 
+      <Box position={"sticky"}>
       <WhatsAppIcon />
+      </Box>
 
       <Box pt={{ lg: "30px", base: "5px" }}>
         <Container maxW={1400}>
