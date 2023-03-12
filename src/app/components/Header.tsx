@@ -53,10 +53,10 @@ export default function Header() {
               bgColor=""
             >
               <Link href="/"> Home </Link>
-              <Link href="/syllabus"> About Us </Link>
-              <Link href="/explore"> Courses </Link>
-              <Link href="/about"> Fees </Link>
-              <Link href="/about"> Faqs </Link>
+              <Link href="/AboutUs"> About Us </Link>
+              <Link href="/courses"> Courses </Link>
+              <Link href="/fees"> Fees </Link>
+              <Link href="/faqs"> Faqs </Link>
               <Link href="/ContactUs"> Contact Us </Link>
             </Flex>
             <Box>

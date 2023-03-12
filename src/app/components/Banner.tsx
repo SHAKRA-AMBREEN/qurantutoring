@@ -134,6 +134,7 @@ export default function Banner() {
                   p={{ lg: "30px", base: "40px" }}
                   ml={{ lg: "0", base: "5px" }}
                   boxShadow="dark-lg"
+                  borderColor={"20px solid green"}
                   borderRadius={{ lg: "20px", base: "10px" }}
                   borderStyle="dotted"
                   width={{ lg: "1000px", base: " 380px " }}
