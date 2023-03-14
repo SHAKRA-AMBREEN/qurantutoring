@@ -16,10 +16,12 @@ import Home from "../components/Home";
 export default function page() {
   return (
     <>
-      <Box bgColor={"grey"} textAlign={"center"}>
+      <Box bgColor={"grey"}
+       textAlign={"center"}
+      >
         <Home
           title="About Us"
-          // src="https://i.pinimg.com/564x/60/30/b9/6030b92ec64a21b20afef1ab9bd67fdb.jpg"
+          src="https://i.pinimg.com/originals/a4/c5/4c/a4c54c9a63ddfc363638b7e7c035a680.jpg"
         />
       </Box>
 
