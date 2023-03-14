@@ -1,1 +1,53 @@
-export const cards =[]
+export const courses = [
+    {
+        id: 1,
+        src: "https://hometutoringonline.com/wp-content/uploads/2023/02/read-norani-f.gif",
+        heading: "READ NOORANI QAIDA",
+        paragraph: "LEARNING NOORANI QAIDA IS ESSENTIAL FOR THOSE WHO WANTS TO LEARN TO RECITE THE QURAN IN THE BEST WAY. STUDENTS CAN LEARN AND RECOGNIZE THE LETTERS IN INDIVIDUAL AND COMPOUND FORMS. THEY LEARN THE PROPER SOUNDS OF EACH LETTER. THEY LEARN TO PRONOUNS EACH ARABIC LETTER PROPERLY WITH TAJWEED.",
+
+
+    },
+    {
+        id: 2,
+        src: "https://hometutoringonline.com/wp-content/uploads/2023/02/Learn-quran-f.gif",
+        heading: "LEARN QURAN READING",
+        paragraph: "IN THIS COURSE, STUDENTS ARE GUIDED TO LEARN QURAN WITH PROPER TAJWEED WITH THE HELP OF EXPERIENCED TUTORS STEP BY STEP. EVEN A PERSON WITH LIMITED KNOWLEDGE OF TAJWEED CAN LEARN QURAN RECITING WITH PROPER TAJWEED AFTER COMPLETING THIS COURSE. THIS COURSE IS DESIGNED FOR PEOPLE OF ALL AGES."
+
+
+    },
+    {
+        id: 3,
+        src: "https://hometutoringonline.com/wp-content/uploads/2023/02/Learn-Ten-Qira%CA%BCat-fa.gif",
+        heading: "MEMORIZE QURAN ONLINE",
+        paragraph: "ANYONE WHO CAN RECITE QURAN WITH TAJWEED IS ELIGIBLE FOR THIS COURSE TO MEMORIZE QURAN. OUR TUTORS WILL HELP YOU TO MEMORIZE QURAN COMPLETELY OR SOME SELECTIVE SURAS OR JUZZ DEPENDING ON YOUR REQUIREMENTS BY USING ISLAMIC RULES AND MODERN TECHNIQUES IN VERY LESS TIME."
+
+
+    },
+    
+]
+    export const course = [
+    {
+        id: 4,
+        src: "https://hometutoringonline.com/wp-content/uploads/2023/02/Learn-Ten-Qira%CA%BCat-fa.gif",
+        heading: "LEARN TEN QIRAʼAT",
+        paragraph: "TERMINOLOGICALLY SPEAKING, QIRA’AT REFERS TO THE WAY THE HOLY QURAN IS RECITED. OUR TEN QIRA’AT COURSE MAKES LEARNING ONLINE EASIER FOR QURAN MEMORIZER STUDENTS, BROTHERS, AND SISTERS."
+
+
+    },
+    {
+        id: 5,
+        src: "https://hometutoringonline.com/wp-content/uploads/2023/02/Learn-Ten-Qira%CA%BCat-fa.gif",
+        heading: "LEARN TAFSEERUL QURAN",
+        paragraph: "THE TERM “TAFSEER” REFERS TO A VERSE’S CORRECT INTERPRETATION IN THE QUR’AN. FOR MUSLIMS WHO ARE INTERESTED IN COMPREHENDING ALLAH’S WILL, AS EXPRESSED IN THE QURAN, THIS COURSE HAS BEEN SPECIALLY DESIGNED."
+
+
+    },
+    {
+        id: 6,
+        src: "https://hometutoringonline.com/wp-content/uploads/2023/02/Learn-Ten-Qira%CA%BCat-fa.gif",
+        heading: "LEARN BASIC TAJWEED",
+        paragraph: "IN TERMS OF QURAN READING & RECITATION, IT IS A VERY COMMON TERM. TAJWEED IS THE ABILITY TO RECITE THE HOLY QUR’AN IN ACCORDANCE WITH A SET OF LINGUISTIC AND PHONETIC GUIDELINES, JUST AS THE PROPHET MUHAMMAD (PBUH) DID."
+
+
+    },
+]
