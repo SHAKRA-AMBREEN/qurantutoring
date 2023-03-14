@@ -91,7 +91,7 @@ export default function Header() {
                     {" "}
                     <MenuItem>Home</MenuItem>{" "}
                   </Link>
-                  <Link href="/AboutUs">
+                  <Link href="./AboutUs">
                   <MenuItem> About Us</MenuItem> </Link>
                   <MenuItem>Courses</MenuItem>
                   <MenuItem> Fee </MenuItem>
