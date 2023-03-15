@@ -36,7 +36,7 @@ export default function page() {
                 width={{lg:"350px",base:"300"}}
                 key={elem.id}
               >
-                <Image src={elem.src} />
+                <Image src={elem.src} alt={"img"}/>
                 <Heading size="md"> {elem.heading}</Heading>
                 <Text pt="5px" fontSize={"10px"}>{elem.paragraph}</Text>
               </Box>
@@ -56,7 +56,7 @@ export default function page() {
                 width={{lg:"350px",base:"300"}}
                 key={elem.id}
               >
-                <Image src={elem.src} />
+                <Image src={elem.src} alt={"img"}update course/>
                 <Heading size={"md"}> {elem.heading}</Heading>
                 <Text pt="5px" fontSize={"10px"}>{elem.paragraph}</Text>
               </Box>
