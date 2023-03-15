@@ -180,16 +180,15 @@ export default function page() {
               >
                 <Heading size={{lg:"lg",base:"sm"}} >TEACH YOUR CHILD THE QURAN</Heading>
                 <Text mt={5}>
-                  Anas bin Malik (RA) reported that the Messenger of Allah ﷺ
-                  said; “Allah has His people among mankind.” They said, “O
-                  Messenger of Allah, who are they?” He said, “They are the
-                  people of the Qurān, the people of Allah and those who are
-                  closest to Him.”
+                  Anas bin Malik (RA) reported that the Messenger of Allah 
+                  said "Allah has His people among mankind." They said, "O
+                  Messenger of Allah, who are they?" He said, "They are the
+                  people of the Quran, the people of Allah and those who are
+                  closest to Him."
                 </Text>
 
                 <Button bgColor="green" mt={5} size="md">
-                  {" "}
-                  Contact Us{" "}
+                  Contact Us
                 </Button>
               </RevealList>
             </Box>
