@@ -427,7 +427,7 @@ export default function Banner() {
 
       <Box
         // bg='green.300'
-        bgImage="https://png.pngtree.com/background/20210716/original/pngtree-mosque-holiday-muslim-background-picture-image_1350265.jpg"
+        bgImage="https://i.pinimg.com/236x/e6/79/4c/e6794c5ad0ef3ca6f702a98a6b98425d.jpg"
         bgRepeat="no-repeat"
         bgSize="1400px"
       >
