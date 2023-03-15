@@ -88,9 +88,7 @@ export default function Header() {
                 />
                 <MenuList>
                   <Link href="./">
-                    {" "}
-                    <MenuItem>Home</MenuItem>{" "}
-                  </Link>
+                  <MenuItem>Home</MenuItem></Link>
                   <Link href="./AboutUs">
                   <MenuItem> About Us</MenuItem> </Link>
                   <Link href="./Courses">

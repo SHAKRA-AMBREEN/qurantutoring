@@ -68,7 +68,7 @@ export default function page() {
           >
             <Heading> Our Values</Heading> <hr color="green"></hr>
             <Text pt="5px">
-              We’ll concentrate on Tajweed fundamentals. The proper punctuation
+              We will concentrate on Tajweed fundamentals. The proper punctuation
               of the Qu'ran will be taught to children.
             </Text>
           </Box>
@@ -92,7 +92,7 @@ export default function page() {
                   WE PROVIDE THE BEST EDUCATION 
                    SERVICE FOR 10 YEARS
                 </Heading>
-                <Text mt={5}   >
+                <Text mt={5}>
                   We stand out from the competition thanks to our qualified
                   teachers and distinctive instructional methods. We are
                   obligated to respond to all of your inquiries. It is our duty
@@ -101,8 +101,7 @@ export default function page() {
                 </Text>
 
                 <Button bgColor="green" mt={5} size="md">
-                  {" "}
-                  Contact Us{" "}
+                  Contact Us
                 </Button>
               </RevealList>
             </Box>
@@ -179,12 +178,12 @@ export default function page() {
                 delay={500}
                 className="flex flex-wrap items-center justify-center"
               >
-                <Heading size={{lg:"lg",base:"sm"}} >TEACH YOUR CHILD THE QUR’AN</Heading>
+                <Heading size={{lg:"lg",base:"sm"}} >TEACH YOUR CHILD THE QURAN</Heading>
                 <Text mt={5}>
                   Anas bin Malik (RA) reported that the Messenger of Allah ﷺ
                   said; “Allah has His people among mankind.” They said, “O
                   Messenger of Allah, who are they?” He said, “They are the
-                  people of the Qur’ān, the people of Allah and those who are
+                  people of the Qurān, the people of Allah and those who are
                   closest to Him.”
                 </Text>
 
