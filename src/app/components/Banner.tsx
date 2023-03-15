@@ -427,7 +427,7 @@ export default function Banner() {
 
       <Box
         // bg='green.300'
-        bgImage="https://i.pinimg.com/236x/e6/79/4c/e6794c5ad0ef3ca6f702a98a6b98425d.jpg"
+        bgImage="https://i.pinimg.com/564x/c5/f9/e2/c5f9e23dc76644c96431d264efcb5330.jpg"
         bgRepeat="no-repeat"
         bgSize="1400px"
       >
