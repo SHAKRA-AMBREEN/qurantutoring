@@ -39,7 +39,7 @@ export default function page() {
             <Heading>Our Mission</Heading> <hr></hr>
             <Text pt="5px">
               Our mission is to build and develop Islamic Community Centers
-              through Masjids & Musallahs.
+              through Masjids and Musallahs.
             </Text>
           </Box>
           <Box
@@ -69,7 +69,7 @@ export default function page() {
             <Heading> Our Values</Heading> <hr color="green"></hr>
             <Text pt="5px">
               We will concentrate on Tajweed fundamentals. The proper punctuation
-              of the Qu'ran will be taught to children.
+              of the Quran will be taught to children.
             </Text>
           </Box>
         </Flex>
