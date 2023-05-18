@@ -6,7 +6,7 @@ export default function Home(hello: any) {
     <>
       <Box bgImage={hello.src} py="200px" bgSize="cover" bgAttachment="fixed">
         <Container maxW={1400}>
-          <Heading color='black' size='2xl'> {hello.title} </Heading>
+          <Heading color='black' size='2xl' mt={{lg:"0px", base:"90px"}} > {hello.title} </Heading>
         </Container>
       </Box>
     </>
