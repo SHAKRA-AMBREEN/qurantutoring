@@ -383,10 +383,10 @@ export default function Banner() {
             <Box flexBasis="50%" px={{ lg: "40px", base: "5px" }} mt="20px">
               <Image
                 src="/herobg/image 6.jpg"
-                w={{ lg: "700px", base: "300px" }}
+                w={{ lg: "700px", base: "350px" }}
                 h={{ lg: "400px", base: "300px" }}
                 pl={{ lg: "120px", base: "5px" }}
-                ml={{ lg: "60px", base: "5px" }}
+                ml={{ lg: "60px", base: "10px" }}
               />
             </Box>
             <Box
