@@ -307,12 +307,12 @@ export default function Banner() {
                 w={{ lg: "150px", base: "150px" }}
                 height="150px"
               >
-                <Image src="/icon/fluent.png" w="100px" h="100" ml="20px" />
+                <Image src="/Icon/fluent.png" w="100px" h="100" ml="20px" />
                 <Text> Fluent Teachers </Text>
               </Box>
               <Box border={"2px solid green"} w="150px" height="150px">
                 <Image
-                  src="/icon/register.png"
+                  src="/Icon/register.png"
                   w="80px"
                   h="60px"
                   mt="20px"
@@ -322,12 +322,12 @@ export default function Banner() {
                 <Text> Free Registration </Text>
               </Box>
               <Box border={"2px solid green"} w="150px" height="150px">
-                <Image src="/icon/247.png" w="100px" h="100" ml="20px" />
+                <Image src="/Icon/247.png" w="100px" h="100" ml="20px" />
                 <Text> 24/7 </Text>
               </Box>
               <Box border={"2px solid green"} w="150px" height="150px">
                 <Image
-                  src="/icon/location.png"
+                  src="/Icon/location.png"
                   w="90px"
                   h="90px"
                   ml="20px"
@@ -336,12 +336,12 @@ export default function Banner() {
                 <Text> Anywhere </Text>
               </Box>
               <Box border={"2px solid green"} w="150px" height="150px">
-                <Image src="/icon/online.png" w="100px" h="100" ml="20px" />
+                <Image src="/Icon/online.png" w="100px" h="100" ml="20px" />
                 <Text> Online </Text>
               </Box>
               <Box border={"2px solid green"} w="150px" height="150px">
                 <Image
-                  src="/icon/easypay.png"
+                  src="/Icon/easypay.png"
                   w="80px"
                   h="90px"
                   mt="10px"
