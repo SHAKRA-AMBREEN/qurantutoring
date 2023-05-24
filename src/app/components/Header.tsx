@@ -94,7 +94,8 @@ export default function Header() {
                   <Link href="./Courses">
                   <MenuItem>Courses</MenuItem></Link>
                   <MenuItem> Fee </MenuItem>
-                  <MenuItem>Contact</MenuItem>
+                  <Link href="./ContactUs"></Link>
+                  <MenuItem >Contact</MenuItem>
                 </MenuList>
               </Menu>
             </Box>
