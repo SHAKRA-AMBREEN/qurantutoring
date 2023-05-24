@@ -66,14 +66,14 @@ export default function Footer() {
               <Grid pt="40px" color="gray" gap='10px'>
                 <Link href="/">
                   {" "}
-                  <PhoneIcon color='green'/> +92 123 4567890{" "}
+                  <PhoneIcon color='green'/> +92 308 8992370 {" "}
                 </Link>
                 <Link href="/">
                   {" "}
-                  <EmailIcon color='green'/> abcd@gmail.com{" "}
+                  <EmailIcon color='green'/> muhammadzareen121@gmail.com {" "}
                 </Link>
                 <Link href="/">
-                   Islamabad, Pakistan </Link>
+                   Karachi, Pakistan </Link>
               </Grid>
             </Box>
           </SimpleGrid>
