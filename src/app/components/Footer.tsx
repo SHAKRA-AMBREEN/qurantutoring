@@ -19,7 +19,7 @@ export default function Footer() {
         <Container maxW={1300}>
           <SimpleGrid
             textAlign={{ lg: "start", base: "center" }}
-            spacing="100px"
+            spacing="65px"
             py="60px"
             templateColumns={{ base: "repeat(1, 1fr )", lg: "repeat(4, 1fr )" }}
           >

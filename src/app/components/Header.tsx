@@ -55,8 +55,7 @@ export default function Header() {
               <Link href="/"> Home </Link>
               <Link href="/AboutUs"> About Us </Link>
               <Link href="/Courses"> Courses </Link>
-              <Link href="/fees"> Fees </Link>
-              <Link href="/faqs"> Faqs </Link>
+              <Link href="/Fee"> Fees </Link>
               <Link href="/ContactUs"> Contact Us </Link>
             </Flex>
             <Box>
@@ -93,9 +92,10 @@ export default function Header() {
                   <MenuItem> About Us</MenuItem> </Link>
                   <Link href="./Courses">
                   <MenuItem>Courses</MenuItem></Link>
-                  <MenuItem> Fee </MenuItem>
-                  <Link href="./ContactUs"></Link>
-                  <MenuItem >Contact</MenuItem>
+                  <Link href="./Fee">
+                  <MenuItem> Fee </MenuItem></Link>
+                  <Link href="./ContactUs">
+                  <MenuItem >Contact</MenuItem></Link>
                 </MenuList>
               </Menu>
             </Box>
